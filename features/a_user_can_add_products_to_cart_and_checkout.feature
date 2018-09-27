@@ -1,11 +1,10 @@
-@javascript
 Feature: Checkout Products
     As a user
     When I want to place an order
     I would like to be presented with a checkout page
 
 Background: 
-     Given the following products exists
+    Given the following products exists
         | name         | description    | price |
         | Pizza1       | Cheesy         |   5   |
         | Pizza2       | Spicy          |   30  |
