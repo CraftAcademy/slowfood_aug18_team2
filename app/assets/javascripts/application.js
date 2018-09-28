@@ -15,3 +15,9 @@
 //= require turbolinks
 //= require cartify/application
 //= require_tree .
+function openDiv(categories) {
+    let i, tab_categories;
+    tab_categories = document.querySelectorAll(".tab_categories");
+    tab_categories.forEach( (e) => e.style.display = "none");
+    document.getElementById(categories).style.display = "block";
+    }
