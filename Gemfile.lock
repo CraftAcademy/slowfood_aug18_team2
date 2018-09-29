@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/CraftAcademy/cartify.git
-  revision: 3cb64e575002053816dcc374349e1959f3d87f87
+  revision: e03d073a59b28552701b8932cb242eec7faea1d9
   branch: rails_5_2
   specs:
     cartify (0.2.7.pre.custom)
